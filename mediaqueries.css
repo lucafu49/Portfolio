@@ -12,6 +12,9 @@
     #desktop-nav{
         display: none;
     }
+    #google_translate_element{
+        display: none;
+    }
     #hamburguer-nav{
         display: flex;
     }
@@ -43,6 +46,9 @@
 @media screen and (max-width: 600px) {
     #contact,footer{
         height: 40vh;
+    }
+    #google_translate_element{
+        display: none;
     }
     #profile{
         height: 83vh;
